@@ -77,7 +77,7 @@
       <br>
       <p align="center">
         <a href="https://github.com/Amal-Khiari/maghreb-care">
-          <img src="https://img.shields.io/badge/Voir_le_projet-0D1117?style=for-the-badge&logo=github&logoColor=FF00FF&labelColor=0D1117&color=FF00FF" alt="Voir Maghreb Care" />
+          <img src="https://img.shields.io/badge/Voir_le_projet-0D1117?style=for-the-badge&logo=github&logoColor=Fix text duplication glitch and update Facebook linkFF00FF&labelColor=0D1117&color=FF00FF" alt="Voir Maghreb Care" />
         </a>
       </p>
     </td>
