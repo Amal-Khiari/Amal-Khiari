@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="250">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&amp;family=Outfit:wght@300;400;500;600&amp;display=swap');
+      
+      .fade-in { animation: fadeIn 2s ease-out 2s forwards; opacity: 0; }
+      @keyframes fadeIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+
+      .title { font-family: 'Playfair Display', serif; font-size: 28px; font-style: italic; fill: #efd9d1; }
+      
+      .card-bg { fill: rgba(255, 255, 255, 0.02); stroke: rgba(216, 167, 177, 0.1); stroke-width: 1px; rx: 12px; transition: all 0.5s ease; cursor: pointer; transform-origin: center; }
+      .card-glow { fill: #d8a7b1; opacity: 0; filter: blur(20px); transition: opacity 0.5s ease; rx: 12px; transform: scale(0.95); }
+      
+      .project-title { font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 500; fill: #efd9d1; transition: fill 0.4s; }
+      .project-desc { font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 300; fill: #a19a9b; line-height: 1.6; }
+      .project-link { font-family: 'Outfit', sans-serif; font-size: 12px; font-weight: 400; fill: #b76e79; letter-spacing: 1px; text-transform: uppercase; transition: color 0.4s; }
+      
+      /* Card Hover Effects */
+      .card-group { transform-origin: center; transition: transform 0.4s ease-out; }
+      .card-group:hover { transform: translateY(-5px); }
+      .card-group:hover .card-bg { stroke: #d8a7b1; fill: rgba(216, 167, 177, 0.05); }
+      .card-group:hover .card-glow { opacity: 0.15; }
+      .card-group:hover .project-title { fill: #fff; }
+      .card-group:hover .project-link { fill: #efd9d1; }
+    </style>
+  </defs>
+
+  <g transform="translate(40, 40)" class="fade-in">
+    <text x="0" y="0" class="title">Selected Work</text>
+
+    <!-- Project 1: Dream Home -->
+    <g transform="translate(0, 30)" class="card-group">
+      <rect width="360" height="140" class="card-glow" />
+      <rect width="340" height="140" class="card-bg" />
+      
+      <g transform="translate(25, 30)">
+        <text x="0" y="0" class="project-title">Dream Home Platform</text>
+        <foreignObject x="0" y="15" width="290" height="60">
+          <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 300; color: #a19a9b; line-height: 1.6;">
+            A high-end, elegant real estate web application prioritizing fluid animations, minimal design, and a robust MERN architecture.
+          </div>
+        </foreignObject>
+        <text x="0" y="90" class="project-link">View Project →</text>
+      </g>
+    </g>
+
+    <!-- Project 2: Coming Soon -->
+    <g transform="translate(380, 30)" class="card-group">
+      <rect width="360" height="140" class="card-glow" />
+      <rect width="340" height="140" class="card-bg" />
+      
+      <g transform="translate(25, 30)">
+        <text x="0" y="0" class="project-title">AI Content Curator</text>
+        <foreignObject x="0" y="15" width="290" height="60">
+          <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 300; color: #a19a9b; line-height: 1.6;">
+            Conceptualized a machine-learning driven backend service written in Python, enabling personalized data flows for digital aesthetics.
+          </div>
+        </foreignObject>
+        <text x="0" y="90" class="project-link">In Development →</text>
+      </g>
+    </g>
+
+  </g>
+</svg>

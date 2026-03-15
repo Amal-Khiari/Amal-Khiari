@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&amp;family=Outfit:wght@300;400;500&amp;display=swap');
+      
+      .fade-in { animation: fadeIn 1.5s ease-out 1.5s forwards; opacity: 0; }
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+      .title { font-family: 'Playfair Display', serif; font-size: 28px; font-style: italic; fill: #efd9d1; }
+      
+      .tag-bg { fill: transparent; stroke: #d8a7b1; stroke-width: 1px; rx: 20px; transition: all 0.4s ease; cursor: default; }
+      .tag-text { font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 400; fill: #d1c5c8; transition: all 0.4s ease; text-anchor: middle; alignment-baseline: middle; }
+      
+      /* Subtle hover effect */
+      .tag-group:hover .tag-bg { fill: rgba(216, 167, 177, 0.15); stroke: #efd9d1; }
+      .tag-group:hover .tag-text { fill: #efd9d1; }
+      
+      .icon { fill: #d8a7b1; transition: fill 0.3s; }
+      .tag-group:hover .icon { fill: #efd9d1; }
+    </style>
+  </defs>
+
+  <g transform="translate(40, 40)" class="fade-in">
+    <text x="0" y="0" class="title">My Toolkit</text>
+    
+    <!-- Row 1 -->
+    <g transform="translate(0, 40)">
+      <g transform="translate(0, 0)" class="tag-group">
+        <rect width="110" height="34" class="tag-bg" />
+        <text x="55" y="18" class="tag-text">JavaScript</text>
+      </g>
+      <g transform="translate(125, 0)" class="tag-group">
+        <rect width="100" height="34" class="tag-bg" />
+        <text x="50" y="18" class="tag-text">Python</text>
+      </g>
+      <g transform="translate(240, 0)" class="tag-group">
+        <rect width="90" height="34" class="tag-bg" />
+        <text x="45" y="18" class="tag-text">Java</text>
+      </g>
+      <g transform="translate(345, 0)" class="tag-group">
+        <rect width="120" height="34" class="tag-bg" />
+        <text x="60" y="18" class="tag-text">React.js</text>
+      </g>
+      <g transform="translate(480, 0)" class="tag-group">
+        <rect width="130" height="34" class="tag-bg" />
+        <text x="65" y="18" class="tag-text">Node / Express</text>
+      </g>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(0, 90)">
+      <g transform="translate(0, 0)" class="tag-group">
+        <rect width="120" height="34" class="tag-bg" />
+        <text x="60" y="18" class="tag-text">MongoDB</text>
+      </g>
+      <g transform="translate(135, 0)" class="tag-group">
+        <rect width="110" height="34" class="tag-bg" />
+        <text x="55" y="18" class="tag-text">Tailwind CSS</text>
+      </g>
+      <g transform="translate(260, 0)" class="tag-group">
+        <rect width="80" height="34" class="tag-bg" />
+        <text x="40" y="18" class="tag-text">Docker</text>
+      </g>
+      <g transform="translate(355, 0)" class="tag-group">
+        <rect width="80" height="34" class="tag-bg" />
+        <text x="40" y="18" class="tag-text">Git</text>
+      </g>
+    </g>
+  </g>
+</svg>
