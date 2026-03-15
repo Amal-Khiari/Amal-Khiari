@@ -1,32 +1,33 @@
 <div align="center">
 
-<img src="cinematic.svg" width="100%" alt="Cinematic Developer Story Animation" />
+<img src="cinematic3d.svg" width="100%" alt="3D Cinematic Developer Story Animation" />
 
 <br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=28&duration=4000&color=00FF88&center=true&vCenter=true&width=700&lines=Hi,+I'm+Amal+Khiari;Full+Stack+Developer;Python+|+Java+|+MERN+Stack;Building+modern+digital+platforms" alt="Typing Animation"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=32&duration=4000&color=00FF88&center=true&vCenter=true&width=800&height=100&lines=Hi,+I'm+Amal+Khiari;Full+Stack+Developer;Python+|+Java+|+MERN+Stack;Building+modern+digital+platforms+and+startups" alt="Typing Animation"/>
 </p>
 
+<!-- Luminous Divider -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF88&height=4&width=100%" />
 
 ### 🚀 About Me
 
 <p align="center">
-  Amal Khiari is a passionate <strong>Full Stack Developer</strong> focused on building modern web platforms, cutting-edge startups, and innovative digital solutions. I specialize in architecting sophisticated systems from the ground up, merging robust backend logic utilizing Python, Java, and Node.js with elegant, futuristic user interfaces to deliver premium, cinematic digital experiences.
+  Amal Khiari is a passionate <strong>Full Stack Developer</strong> dedicated to building modern web platforms, innovative startups, and AI-driven digital ecosystems. I specialize in crafting ultra-premium, 3D-integrated user experiences backed by scalable cloud architectures, seamlessly bridging advanced backend capabilities in Python, Java, and Node.js with futuristic front-end designs.
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=00C896&height=2&width=80%" />
 
-### 💻 Technological Arsenal
+### 🌐 Floating Tech Grid
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,java,js,react,nodejs,express,mongodb,tailwind,git,docker&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=python,java,js,react,nodejs,express,mongodb,tailwind,git,docker&theme=dark" alt="Floating Technology Stack" />
   </a>
 </p>
 
-### ⚡ Proficiency Metrics
+### ⚡ Animated Core Competencies
 
 <p align="center">
   <img src="skills.svg" width="100%" alt="Animated Skill Progress Bars" />
@@ -34,14 +35,14 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=38bdf8&height=2&width=80%" />
 
-### 🌟 Featured Architecture
+### 🌟 Featured Architecture Showcase
 
 <table>
   <tr>
     <td width="55%">
       <h3 align="center">🏡 Dream Home</h3>
       <p align="center"><strong>Modern Real Estate Platform</strong></p>
-      <p align="center">A highly sophisticated real estate platform engineered from the ground up utilizing the MERN stack. Designed with futuristic 2026 UI/UX principles, featuring elegant scalable architecture and smooth cinematic animations.</p>
+      <p align="center">A high-performance real estate platform engineered from the ground up utilizing the MERN stack. Designed with futuristic 2026 UI/UX glassmorphism principles, featuring elegant scalable architecture and smooth cinematic animations.</p>
       <p align="center">
         <a href="https://github.com/Amal-Khiari/Dream-home-">
           <img src="https://img.shields.io/badge/Explore%20System-0f172a?style=for-the-badge&logo=github&logoColor=00FF88&labelColor=0f172a&color=00FF88" />
@@ -49,17 +50,17 @@
       </p>
     </td>
     <td width="45%">
-      <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=600" alt="Dream Home Preview" style="border-radius: 12px; box-shadow: 0 0 25px rgba(0, 255, 136, 0.2);" />
+      <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=600" alt="Dream Home Preview" style="border-radius: 12px; box-shadow: 0 0 35px rgba(0, 255, 136, 0.25);" />
     </td>
   </tr>
 </table>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=a855f7&height=2&width=80%" />
 
-### 📊 Engineering Analytics
+### 📊 Matrix Analytics & Engineering Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Amal-Khiari&show_icons=true&theme=radical&bg_color=0f172a&border_color=00FF88&title_color=00FF88&icon_color=a855f7&text_color=94a3b8" height="192"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Amal-Khiari&show_icons=true&theme=radical&bg_color=0f172a&border_color=00FF88&title_color=00FF88&icon_color=00C896&text_color=94a3b8" height="192"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amal-Khiari&layout=compact&theme=radical&bg_color=0f172a&border_color=00FF88&title_color=00FF88&text_color=94a3b8" height="192"/>
 </p>
 
@@ -71,7 +72,7 @@
   01001100 01101111 01100001 01100100 01101001 01101110 01100111
 </p>
 
-### 🐍 Contribution Matrix
+### 🐍 Contribution Activity Matrix
 
 <p align="center">
   <picture>
@@ -83,7 +84,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF88&height=4&width=100%" />
 
-### 📡 Initiate Connection
+### 📡 Secure Connection Uplink
 
 <p align="center">
   Connect with me on GitHub

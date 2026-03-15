@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="500">
+  <defs>
+    <style>
+      /* Environment Transitions */
+      .sky { animation: skyDarken 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; fill: #87CEEB; }
+      .sun { animation: sunFade 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; fill: url(#sun-glow); }
+      .star { animation: starsGlow 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; fill: #FFF; opacity: 0; }
+      
+      /* 3D Room and Lighting */
+      .wall-left { animation: roomDarken 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; fill: #e2e8f0; }
+      .wall-right { animation: roomDarkenRight 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; fill: #cbd5e1; }
+      .floor { animation: floorDarken 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; fill: #94a3b8; }
+      
+      /* Computer & Holograms */
+      .screen-glow-env { animation: screenEnvLightUp 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; fill: url(#hologram-glow); opacity: 0; }
+      .screen { animation: screenLightUp 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; fill: #1e293b; }
+      .hologram-beam { animation: holoBeam 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; opacity: 0; fill: url(#beam-grad); }
+      
+      /* 3D Code Symbols */
+      .code-3d { font-family: 'Courier New', monospace; font-weight: bold; font-size: 28px; fill: #00FF88; opacity: 0; filter: drop-shadow(0 0 10px #00FF88); }
+      .code-fly-1 { animation: codeFly1 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
+      .code-fly-2 { animation: codeFly2 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
+      .code-fly-3 { animation: codeFly3 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
+      .code-fly-4 { animation: codeFly4 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
+      
+      /* Tech Orbs (3D Floating) */
+      .tech-orb { opacity: 0; filter: drop-shadow(0 0 15px rgba(0,255,136,0.8)); }
+      .orb-1 { animation: orbit1 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
+      .orb-2 { animation: orbit2 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
+      .orb-3 { animation: orbit3 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
+
+      @keyframes skyDarken {
+        0%, 25% { fill: #87CEEB; }
+        45%, 100% { fill: #0f172a; }
+      }
+      @keyframes roomDarken {
+        0%, 25% { fill: #e2e8f0; }
+        45%, 100% { fill: #1e293b; }
+      }
+      @keyframes roomDarkenRight {
+        0%, 25% { fill: #cbd5e1; }
+        45%, 100% { fill: #0f172a; }
+      }
+      @keyframes floorDarken {
+        0%, 25% { fill: #94a3b8; }
+        45%, 100% { fill: #020617; }
+      }
+      @keyframes sunFade {
+        0%, 15% { opacity: 1; transform: translateY(0) scale(1); }
+        35%, 100% { opacity: 0; transform: translateY(200px) scale(0.5); }
+      }
+      @keyframes starsGlow {
+        0%, 40% { opacity: 0; }
+        55%, 100% { opacity: 1; transform: scale(1.2); }
+      }
+      @keyframes screenLightUp {
+        0%, 45% { fill: #0f172a; }
+        55%, 100% { fill: #e0f2fe; }
+      }
+      @keyframes screenEnvLightUp {
+        0%, 45% { opacity: 0; }
+        60%, 100% { opacity: 0.5; }
+      }
+      @keyframes holoBeam {
+        0%, 55% { opacity: 0; transform: scaleY(0.1); }
+        70%, 100% { opacity: 0.8; transform: scaleY(1); }
+      }
+      
+      /* Complex 3D Trajectories */
+      @keyframes codeFly1 {
+        0%, 55% { opacity: 0; transform: perspective(500px) translate3d(0, 0, 0) scale(0.1); }
+        80%, 100% { opacity: 1; transform: perspective(500px) translate3d(-150px, -200px, 100px) scale(1.5) rotateY(-20deg) rotateX(10deg); }
+      }
+      @keyframes codeFly2 {
+        0%, 60% { opacity: 0; transform: perspective(500px) translate3d(0, 0, 0) scale(0.1); }
+        85%, 100% { opacity: 0.9; transform: perspective(500px) translate3d(180px, -150px, 80px) scale(1.2) rotateY(15deg); }
+      }
+      @keyframes codeFly3 {
+        0%, 65% { opacity: 0; transform: perspective(500px) translate3d(0, 0, 0) scale(0.1); }
+        90%, 100% { opacity: 1; transform: perspective(500px) translate3d(-80px, -250px, 150px) scale(1.8) rotateZ(10deg); }
+      }
+      @keyframes codeFly4 {
+        0%, 70% { opacity: 0; transform: perspective(500px) translate3d(0, 0, 0) scale(0.1); }
+        95%, 100% { opacity: 0.8; transform: perspective(500px) translate3d(120px, -280px, 50px) scale(1.3) rotateZ(-15deg); }
+      }
+      
+      @keyframes orbit1 {
+        0%, 50% { opacity: 0; transform: perspective(600px) rotateY(0deg) translateZ(150px); }
+        75%, 100% { opacity: 1; transform: perspective(600px) rotateY(360deg) translateZ(180px); }
+      }
+      @keyframes orbit2 {
+        0%, 55% { opacity: 0; transform: perspective(600px) rotateY(0deg) rotateX(45deg) translateZ(200px); }
+        80%, 100% { opacity: 0.9; transform: perspective(600px) rotateY(-360deg) rotateX(45deg) translateZ(220px); }
+      }
+      @keyframes orbit3 {
+        0%, 60% { opacity: 0; transform: perspective(600px) rotateY(0deg) rotateX(-30deg) translateZ(120px); }
+        85%, 100% { opacity: 0.8; transform: perspective(600px) rotateZ(360deg) rotateX(-30deg) translateZ(160px); }
+      }
+
+      .stinkle { animation: twinkle 3s infinite alternate; }
+      @keyframes twinkle { 0% { opacity: 0.2; } 100% { opacity: 1; filter: drop-shadow(0 0 4px #FFF); } }
+    </style>
+    
+    <radialGradient id="sun-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#FDB813" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FDB813" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="hologram-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#00C896" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    
+    <linearGradient id="beam-grad" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#00C896" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00FF88" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- 3D Desk Gradients -->
+    <linearGradient id="desk-top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="desk-side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="100%" height="100%" class="sky" />
+
+  <!-- The Sun -->
+  <circle cx="200" cy="120" r="80" class="sun" />
+
+  <!-- Stars -->
+  <g class="star">
+    <circle cx="120" cy="60" r="3" class="stinkle" style="animation-delay: 0s" />
+    <circle cx="350" cy="90" r="2" class="stinkle" style="animation-delay: 0.5s" />
+    <circle cx="580" cy="40" r="4" class="stinkle" style="animation-delay: 1s" />
+    <circle cx="720" cy="110" r="2.5" class="stinkle" style="animation-delay: 1.5s" />
+    <circle cx="280" cy="150" r="1.5" class="stinkle" style="animation-delay: 0.2s" />
+    <circle cx="620" cy="190" r="3" class="stinkle" style="animation-delay: 0.8s" />
+    <circle cx="80" cy="180" r="1.5" class="stinkle" style="animation-delay: 1.2s" />
+    <circle cx="480" cy="120" r="2.5" class="stinkle" style="animation-delay: 0.7s" />
+    <circle cx="200" cy="50" r="2" class="stinkle" style="animation-delay: 0.3s" />
+    <circle cx="400" cy="180" r="1" class="stinkle" style="animation-delay: 0.9s" />
+  </g>
+
+  <!-- 3D Room Structure (Isometric projection perspective) -->
+  <!-- Left Wall -->
+  <polygon points="0,0 400,100 400,500 0,500" class="wall-left" opacity="0.1" />
+  <!-- Right Wall / Window area -->
+  <polygon points="400,100 800,0 800,500 400,500" class="wall-right" opacity="0.05" />
+  
+  <g transform="translate(0, 50)">
+    <!-- Isometric 3D Desk -->
+    <!-- Desk side/thickness -->
+    <polygon points="150,330 650,330 650,350 150,350" fill="url(#desk-side)" />
+    <!-- Desk top -->
+    <polygon points="200,270 700,270 650,330 150,330" fill="url(#desk-top)" stroke="#475569" stroke-width="1" />
+    
+    <!-- Desk Legs -->
+    <rect x="220" y="330" width="15" height="150" fill="#0f172a" />
+    <rect x="580" y="330" width="15" height="150" fill="#0f172a" />
+    <polygon points="235,330 245,325 245,475 235,480" fill="#020617" />
+    <polygon points="595,330 605,325 605,475 595,480" fill="#020617" />
+
+    <!-- Isometric Laptop Base -->
+    <polygon points="380,300 480,300 460,320 360,320" fill="#64748b" />
+    <polygon points="360,320 460,320 460,325 360,325" fill="#475569" />
+    <polygon points="460,320 480,300 480,305 460,325" fill="#334155" />
+    
+    <!-- Keyboard details (isometric) -->
+    <polygon points="380,305 455,305 440,315 375,315" fill="#1e293b" />
+    
+    <!-- Isometric Laptop Screen Edge -->
+    <polygon points="380,300 480,300 430,220 350,220" fill="#334155" />
+    <!-- Screen Illuminating surface -->
+    <polygon points="378,295 470,295 425,225 355,225" class="screen" />
+    
+    <!-- Holistic environmental glow from screen (hits desk) -->
+    <ellipse cx="410" cy="300" rx="150" ry="40" class="screen-glow-env" />
+
+    <!-- Holographic Light Beam -->
+    <polygon points="390,280 440,280 480,80 320,80" class="hologram-beam" />
+
+    <!-- Developer 3D Silhouette (Isometric angles) -->
+    <!-- Chair Base & Cylinder -->
+    <ellipse cx="280" cy="450" rx="40" ry="10" fill="#020617" />
+    <rect x="275" y="380" width="10" height="70" fill="#0f172a" />
+    
+    <!-- Chair Seat -->
+    <polygon points="260,360 320,380 300,390 240,370" fill="#1e293b" />
+    <polygon points="240,370 300,390 300,395 240,375" fill="#0f172a" stroke="#334155" stroke-width="0.5" />
+    <polygon points="300,390 320,380 320,385 300,395" fill="#020617" />
+    
+    <!-- Chair Backrest -->
+    <polygon points="240,370 260,360 250,250 220,270" fill="#0f172a" />
+    
+    <!-- Developer Body (Sitting side-isometric angle) -->
+    <!-- Torso -->
+    <path d="M 255 350 C 240 300, 260 260, 280 250 C 310 260, 310 320, 290 370 Z" fill="#020617" />
+    
+    <!-- Head & Neck -->
+    <circle cx="280" cy="220" r="30" fill="#0f172a" />
+    <circle cx="288" cy="215" r="28" fill="#020617" /> <!-- Shadow/depth for head -->
+    
+    <!-- Headphones (Isometric 3D) -->
+    <path d="M 270 185 C 290 180, 315 190, 310 220" stroke="#8b5cf6" stroke-width="6" fill="none" stroke-linecap="round" />
+    <path d="M 270 185 C 290 180, 315 190, 310 220" stroke="#a855f7" stroke-width="3" fill="none" stroke-linecap="round" /> <!-- Highlight -->
+    <polygon points="305,210 315,205 320,230 310,235" fill="#8b5cf6" />
+    <polygon points="315,205 320,230 318,230 313,205" fill="#c084fc" /> <!-- 3D facet -->
+    
+    <!-- Flowing Hair -->
+    <path d="M 260 195 C 230 200, 220 250, 240 270 C 250 290, 255 250, 265 240 Z" fill="#020617" />
+    <path d="M 250 190 C 270 180, 290 180, 300 200 Z" fill="#020617" />
+
+    <!-- 3D Arm reaching to keyboard -->
+    <!-- Upper Arm -->
+    <path d="M 275 260 L 290 300" stroke="#020617" stroke-width="20" stroke-linecap="round" />
+    <!-- Forearm -->
+    <path d="M 290 300 L 360 310" stroke="#0f172a" stroke-width="16" stroke-linecap="round" />
+    
+    <!-- A Coffee Mug / Plant on desk (Right side) -->
+    <!-- Mug -->
+    <ellipse cx="580" cy="290" rx="12" ry="6" fill="#1e293b" />
+    <rect x="568" y="290" width="24" height="25" fill="#0f172a" />
+    <ellipse cx="580" cy="315" rx="12" ry="6" fill="#020617" />
+    <path d="M 592 295 C 605 295, 605 310, 592 310" stroke="#0f172a" stroke-width="4" fill="none" />
+    <!-- Steam -->
+    <path d="M 575 285 Q 580 270, 575 260" stroke="#FFF" stroke-width="2" fill="none" class="stinkle" opacity="0.3" />
+    <path d="M 585 280 Q 590 265, 582 255" stroke="#FFF" stroke-width="2" fill="none" class="stinkle" opacity="0.2" style="animation-delay: 1s;" />
+  </g>
+
+  <!-- Floating Holographic 3D Code Symbols -->
+  <g transform="translate(410, 240)">
+    <text x="0" y="0" class="code-3d code-fly-1">&lt;MERN/&gt;</text>
+    <text x="0" y="0" class="code-3d code-fly-2">public class()</text>
+    <text x="0" y="0" class="code-3d code-fly-3">import React</text>
+    <text x="0" y="0" class="code-3d code-fly-4">def deploy():</text>
+  </g>
+
+  <!-- 3D Orbiting Tech Orbs -->
+  <g transform="translate(410, 200)">
+    <!-- Node.js/Mongo Hex Orb -->
+    <g class="tech-orb orb-1">
+      <circle cx="0" cy="0" r="18" fill="rgba(15,23,42,0.8)" stroke="#4ade80" stroke-width="2" />
+      <polygon points="0,-10 9,-5 9,5 0,10 -9,5 -9,-5" fill="#4ade80" />
+    </g>
+    
+    <!-- React Atom Orb -->
+    <g class="tech-orb orb-2">
+      <circle cx="0" cy="0" r="22" fill="rgba(15,23,42,0.8)" stroke="#38bdf8" stroke-width="2" />
+      <ellipse cx="0" cy="0" rx="12" ry="4" transform="rotate(30)" fill="none" stroke="#38bdf8" stroke-width="2"/>
+      <ellipse cx="0" cy="0" rx="12" ry="4" transform="rotate(-30)" fill="none" stroke="#38bdf8" stroke-width="2"/>
+      <ellipse cx="0" cy="0" rx="12" ry="4" transform="rotate(90)" fill="none" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="0" cy="0" r="3" fill="#38bdf8" />
+    </g>
+
+    <!-- Python/Java Abstract Orb -->
+    <g class="tech-orb orb-3">
+      <circle cx="0" cy="0" r="20" fill="rgba(15,23,42,0.8)" stroke="#eab308" stroke-width="2" />
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#eab308" stroke-width="2" stroke-dasharray="4 4" />
+      <circle cx="0" cy="0" r="4" fill="#eab308" />
+    </g>
+  </g>
+</svg>
