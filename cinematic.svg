@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="400">
+  <defs>
+    <style>
+      .sky { animation: skyDarken 15s ease-in-out infinite alternate; fill: #87CEEB; }
+      .sun { animation: sunFade 15s ease-in-out infinite alternate; fill: #FDB813; }
+      .star { animation: starsGlow 15s ease-in-out infinite alternate; fill: #FFF; opacity: 0; }
+      .screen { animation: screenLightUp 15s ease-in-out infinite alternate; fill: #1e293b; }
+      .screen-glow { animation: screenGlow 15s ease-in-out infinite alternate; opacity: 0; }
+      
+      .code { font-family: 'Courier New', Courier, monospace; font-size: 24px; font-weight: bold; fill: #00FF88; opacity: 0; filter: drop-shadow(0 0 5px #00FF88); }
+      .code-float-1 { animation: codeFloat1 15s ease-in-out infinite alternate; }
+      .code-float-2 { animation: codeFloat2 15s ease-in-out infinite alternate; }
+      .code-float-3 { animation: codeFloat3 15s ease-in-out infinite alternate; }
+      
+      @keyframes skyDarken {
+        0%, 20% { fill: #87CEEB; }
+        40%, 100% { fill: #0f172a; }
+      }
+      @keyframes sunFade {
+        0%, 15% { opacity: 1; transform: translateY(0); }
+        35%, 100% { opacity: 0; transform: translateY(150px); }
+      }
+      @keyframes starsGlow {
+        0%, 35% { opacity: 0; }
+        50%, 100% { opacity: 1; transform: scale(1.1); }
+      }
+      @keyframes screenLightUp {
+        0%, 45% { fill: #1e293b; }
+        55%, 100% { fill: #e2e8f0; }
+      }
+      @keyframes screenGlow {
+        0%, 45% { opacity: 0; }
+        55%, 100% { opacity: 0.6; }
+      }
+      
+      @keyframes codeFloat1 {
+        0%, 50% { opacity: 0; transform: translateY(0) scale(0.8); }
+        65%, 100% { opacity: 1; transform: translateY(-80px) translateX(-30px) scale(1.2); }
+      }
+      @keyframes codeFloat2 {
+        0%, 55% { opacity: 0; transform: translateY(0) scale(0.8); }
+        70%, 100% { opacity: 0.8; transform: translateY(-110px) translateX(20px) scale(1); }
+      }
+      @keyframes codeFloat3 {
+        0%, 60% { opacity: 0; transform: translateY(0) scale(0.8); }
+        75%, 100% { opacity: 0.9; transform: translateY(-60px) translateX(-50px) scale(1.4); }
+      }
+      
+      .stinkle { animation: twinkle 3s infinite alternate; }
+      @keyframes twinkle { 0% { opacity: 0.3; } 100% { opacity: 1; } }
+    </style>
+    
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00FF88" stop-opacity="0"/>
+    </radialGradient>
+    
+    <linearGradient id="deskGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="100%" height="100%" class="sky" />
+
+  <!-- Sun -->
+  <circle cx="200" cy="150" r="60" class="sun" />
+
+  <!-- Stars -->
+  <g class="star">
+    <circle cx="150" cy="80" r="2.5" class="stinkle" style="animation-delay: 0s" />
+    <circle cx="350" cy="100" r="1.5" class="stinkle" style="animation-delay: 0.5s" />
+    <circle cx="550" cy="50" r="3" class="stinkle" style="animation-delay: 1s" />
+    <circle cx="750" cy="120" r="2" class="stinkle" style="animation-delay: 1.5s" />
+    <circle cx="250" cy="160" r="1.5" class="stinkle" style="animation-delay: 0.2s" />
+    <circle cx="650" cy="180" r="2" class="stinkle" style="animation-delay: 0.8s" />
+    <circle cx="100" cy="200" r="1" class="stinkle" style="animation-delay: 1.2s" />
+    <circle cx="450" cy="140" r="2" class="stinkle" style="animation-delay: 0.7s" />
+  </g>
+
+  <!-- Desk Environment -->
+  <rect x="0" y="320" width="800" height="80" fill="url(#deskGrad)" />
+  <polygon points="0,320 800,320 800,330 0,330" fill="#334155" />
+
+  <!-- Plant silhouette on desk right -->
+  <path d="M 700 320 C 690 280, 670 250, 680 220 C 690 250, 710 270, 700 320 Z" fill="#020617" />
+  <path d="M 700 320 C 720 290, 740 260, 730 230 C 730 270, 715 290, 700 320 Z" fill="#020617" />
+  <path d="M 700 320 C 700 280, 705 240, 710 210 C 715 250, 708 280, 700 320 Z" fill="#020617" />
+  <rect x="685" y="300" width="30" height="20" rx="3" fill="#0f172a" />
+
+  <!-- Laptop Base -->
+  <rect x="420" y="310" width="160" height="10" rx="4" fill="#64748b" />
+  
+  <!-- Laptop Screen Edge -->
+  <polygon points="430,310 400,180 415,180 450,310" fill="#334155" />
+  <!-- Screen Illuminating surface -->
+  <polygon points="428,310 402,185 408,185 440,310" class="screen" />
+
+  <!-- Screen Glow -->
+  <circle cx="360" cy="240" r="180" fill="url(#glow)" class="screen-glow" />
+
+  <!-- Coffee Mug left -->
+  <rect x="250" y="295" width="25" height="25" rx="2" fill="#020617" />
+  <path d="M 245 300 C 240 300, 240 315, 245 315" stroke="#020617" stroke-width="4" fill="none" />
+  <path d="M 260 290 Q 265 270, 270 260" stroke="#FFF" stroke-width="2" fill="none" opacity="0.3" class="stinkle" />
+  
+  <!-- Floating Code Symbols -->
+  <text x="360" y="220" class="code code-float-1">&lt;/&gt;</text>
+  <text x="320" y="180" class="code code-float-2">def main():</text>
+  <text x="400" y="150" class="code code-float-3">{...}</text>
+  <text x="360" y="100" class="code code-float-1">System.out</text>
+  <text x="280" y="250" class="code code-float-3">=&gt; { }</text>
+
+  <!-- Developer Silhouette -->
+  <!-- Chair -->
+  <rect x="180" y="220" width="30" height="150" rx="10" fill="#020617" />
+  <rect x="140" y="300" width="80" height="20" rx="5" fill="#020617" />
+  
+  <!-- Developer Body -->
+  <path d="M 210 320 C 200 240, 230 200, 280 200 C 310 220, 310 260, 260 320 Z" fill="#020617" />
+  
+  <!-- Developer Head -->
+  <circle cx="280" cy="180" r="35" fill="#020617" />
+  <!-- Headphones -->
+  <path d="M 270 140 A 45 45 0 0 1 310 180" stroke="#8b5cf6" stroke-width="5" fill="none" />
+  <rect x="305" y="170" width="10" height="25" rx="3" fill="#8b5cf6" />
+  
+  <!-- Hair (Ponytail style) -->
+  <path d="M 255 155 C 230 160, 210 200, 230 230 C 240 250, 250 220, 255 210 Z" fill="#020617" />
+  <path d="M 255 150 C 260 140, 280 140, 290 150 Z" fill="#020617" />
+  
+  <!-- Developer Arm typing -->
+  <!-- Arm upper -->
+  <path d="M 265 210 L 320 260 L 400 290" stroke="#020617" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>
