@@ -4,16 +4,17 @@
 
 <br>
 
-<h2 align="center">ðŸ‘‹ Salut, je suis Amal Khiari</h2>
+<h2 align="center">👋 Hi, I'm Amal Khiari</h2>
 <div align="center">
-  <p><i>DÃ©veloppeur passionnÃ© crÃ©ant des expÃ©riences web modernes et explorant les technologies dâ€™intelligence artificielle.</i></p>
+  <p><i>A web developer and AI enthusiast passionate about building modern digital experiences.</i></p>
+  <p><i>I focus on creating clean, efficient, and innovative web applications while exploring the future of artificial intelligence and technology.</i></p>
 </div>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </p>
 
-<h2 align="center">âš¡ TECH STACK</h2>
+<h2 align="center">⚡ TECH STACK</h2>
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="50" alt="HTML5" title="HTML5" />
   <img width="20" />
@@ -34,7 +35,7 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </p>
 
-<h2 align="center">ðŸ›°ï¸ GITHUB ANALYTICS</h2>
+<h2 align="center">🛰️ GITHUB ANALYTICS</h2>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Amal-Khiari&show_icons=true&bg_color=0D1117&title_color=00FFFF&text_color=C9D1D9&icon_color=FF00FF&border_color=00FFFF&hide_border=false" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amal-Khiari&layout=compact&bg_color=0D1117&title_color=00FFFF&text_color=C9D1D9&icon_color=FF00FF&border_color=00FFFF&hide_border=false" alt="Top Languages" />
@@ -52,7 +53,7 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </p>
 
-<h2 align="center">ðŸ›¸ FEATURED PROJECTS</h2>
+<h2 align="center">🛸 FEATURED PROJECTS</h2>
 <table align="center" width="900">
   <tr>
     <td align="center" width="50%">
@@ -82,7 +83,7 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </p>
 
-<h2 align="center">ðŸ“¡ CONNECT WITH ME</h2>
+<h2 align="center">📡 CONNECT WITH ME</h2>
 <p align="center">
   <a href="https://github.com/Amal-Khiari">
     <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FFFF&color=0D1117" alt="GitHub" />
