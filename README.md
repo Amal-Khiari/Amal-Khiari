@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="cinematic.svg" width="100%" alt="Day and Night Coding Animation" />
+<img src="cinematic.svg" width="100%" alt="Cinematic Developer Story Animation" />
 
 <br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=28&duration=4000&color=00FF88&center=true&vCenter=true&width=700&lines=Hi,+I'm+Amal+Khiari;Full+Stack+Developer;Python+|+Java+|+MERN+Stack;Building+innovative+digital+platforms" alt="Typing Animation"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=28&duration=4000&color=00FF88&center=true&vCenter=true&width=700&lines=Hi,+I'm+Amal+Khiari;Full+Stack+Developer;Python+|+Java+|+MERN+Stack;Building+modern+digital+platforms" alt="Typing Animation"/>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF88&height=4&width=100%" />
@@ -13,12 +13,12 @@
 ### 🚀 About Me
 
 <p align="center">
-  Amal Khiari is a passionate <strong>Full Stack Developer</strong> focused on building modern web platforms, cutting-edge startups, and intelligent, AI-driven digital systems. I specialize in crafting ultra-premium, high-performance experiences blending robust architecture with elegant, futuristic UI design.
+  Amal Khiari is a passionate <strong>Full Stack Developer</strong> focused on building modern web platforms, cutting-edge startups, and innovative digital solutions. I specialize in architecting sophisticated systems from the ground up, merging robust backend logic utilizing Python, Java, and Node.js with elegant, futuristic user interfaces to deliver premium, cinematic digital experiences.
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=00C896&height=2&width=80%" />
 
-### 💻 Tech Interface Core
+### 💻 Technological Arsenal
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -41,7 +41,7 @@
     <td width="55%">
       <h3 align="center">🏡 Dream Home</h3>
       <p align="center"><strong>Modern Real Estate Platform</strong></p>
-      <p align="center">A sophisticated full-stack real estate platform engineered with the MERN stack, delivering elegant UI, smooth cinematic animations, and scalable cloud architecture utilizing modern 2026 design principles.</p>
+      <p align="center">A highly sophisticated real estate platform engineered from the ground up utilizing the MERN stack. Designed with futuristic 2026 UI/UX principles, featuring elegant scalable architecture and smooth cinematic animations.</p>
       <p align="center">
         <a href="https://github.com/Amal-Khiari/Dream-home-">
           <img src="https://img.shields.io/badge/Explore%20System-0f172a?style=for-the-badge&logo=github&logoColor=00FF88&labelColor=0f172a&color=00FF88" />
@@ -67,7 +67,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Amal-Khiari&theme=radical&background=0f172a&border=00FF88&fire=00FF88&ring=a855f7&currStreakLabel=00FF88" />
 </p>
 
-<!-- Matrix Style Separator Placeholder -->
 <p align="center" style="font-family: monospace; color: #00FF88; font-size: 14px; letter-spacing: 5px;">
   01001100 01101111 01100001 01100100 01101001 01101110 01100111
 </p>
