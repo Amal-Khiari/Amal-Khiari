@@ -32,6 +32,10 @@
 </p>
 
 <p align="center">
+  <img src="https://miro.medium.com/0*yBvA5CnEX3Sd4aod.gif" width="500"/>
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </p>
 
@@ -57,22 +61,22 @@
 <table align="center" width="900">
   <tr>
     <td align="center" width="50%">
-              <h3 align="center">High-end AI-powered HR</h3>
-              <p align="center">Advanced HR platform leveraging artificial intelligence.</p>
+      <h3 align="center">High-end AI-powered HR</h3>
+      <p align="center">Plateforme RH moderne intégrant l'Intelligence Artificielle.</p>
       <br>
       <p align="center">
         <a href="https://github.com/Amal-Khiari/High_end-AI_powered-HR">
-          <img src="https://img.shields.io/badge/Voir_le_projet-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF&labelColor=0D1117&color=00FFFF" alt="Voir Project 1" />
+          <img src="https://img.shields.io/badge/Voir_le_projet-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF&labelColor=0D1117&color=00FFFF" alt="Voir High-end AI-powered HR" />
         </a>
       </p>
     </td>
     <td align="center" width="50%">
-              <h3 align="center">Maghreb Care</h3>
-              <p align="center">Digital healthcare ecosystem for the Maghreb region.</p>
+      <h3 align="center">Maghreb Care</h3>
+      <p align="center">Application web pour les services de santé et de soins.</p>
       <br>
       <p align="center">
         <a href="https://github.com/Amal-Khiari/maghreb-care">
-          <img src="https://img.shields.io/badge/Voir_le_projet-0D1117?style=for-the-badge&logo=github&logoColor=FF00FF&labelColor=0D1117&color=FF00FF" alt="Voir Project 2" />
+          <img src="https://img.shields.io/badge/Voir_le_projet-0D1117?style=for-the-badge&logo=github&logoColor=FF00FF&labelColor=0D1117&color=FF00FF" alt="Voir Maghreb Care" />
         </a>
       </p>
     </td>
