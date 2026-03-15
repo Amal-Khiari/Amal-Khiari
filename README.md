@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="cinematic3d.svg" width="100%" alt="3D Cinematic Developer Story Animation" />
+<img src="cinematic.svg" width="100%" alt="3D Cinematic Developer Story Animation" />
 
 <br/>
 
