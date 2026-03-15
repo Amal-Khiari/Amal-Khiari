@@ -1,82 +1,82 @@
-# Salut, je suis Amal Khiari 👋
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=250&section=header&text=AMAL%20KHIARI&fontSize=80&fontColor=00FFFF&animation=twinkling&fontAlignY=35&desc=Web%20Developer%20%E2%80%A2%20AI%20Enthusiast%20%E2%80%A2%20Creative%20Builder&descAlignY=60&descSize=22" alt="Amal Khiari Hero Banner" />
 
-<p align="center">
-  <a href="https://github.com/Amal-Khiari">
-    <img src="https://i.gifer.com/origin/bc/bca56ffe4a6e2910237482982aa856fe.gif" alt="GIF animé" width="300" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(216, 167, 177, 0.4);"/>
-  </a>
-</p>
+    <br>
 
-<p align="center">
-  <a href="https://linkedin.com/in/amal-khiari">
-    <img src="https://img.shields.io/badge/-LinkedIn-d8a7b1?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://twitter.com/amalkhiari">
-    <img src="https://img.shields.io/badge/-Twitter-efd9d1?style=for-the-badge&logo=twitter&logoColor=b76e79" alt="Twitter" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Amal-Khiari/Dream-home-">
-    <img src="https://img.shields.io/badge/-Portfolio-b76e79?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
-  </a>
-</p>
+      ## &#128075; Salut, je suis Amal Khiari
+        *D&eacute;veloppeur passionn&eacute; cr&eacute;ant des exp&eacute;riences web modernes et explorant les technologies d&rsquo;intelligence artificielle.*
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=400&size=16&duration=4000&color=d8a7b1&center=true&vCenter=true&width=800&height=50&lines=Bienvenue+sur+mon+profil+GitHub+!;J’aime+partager+mes+projets+et+collaborer+avec+la+communauté." alt="Typing Animation"/>
-</p>
+          ---
 
----
+            ## &#9889; TECH STACK
 
-### 👩‍💻 À propos de moi
-- 💻 Développeuse passionnée par **l'IA, le Web et l'écosystème MERN**
-- 🌍 Basée en **Tunisie**
-- 📫 Contact : **amal.khiari@example.com**
-- 🌐 Site web : **[Mon Portfolio V2 (En construction)](#)**
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="50" alt="HTML5" title="HTML5" />
+                  <img width="20" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="50" alt="CSS3" title="CSS3" />
+                      <img width="20" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="50" alt="JavaScript" title="JavaScript" />
+                          <img width="20" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height="50" alt="React" title="React" />
+                              <img width="20" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50" alt="Python" title="Python" />
+                                  <img width="20" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="50" alt="Git" title="Git" />
+                                      <img width="20" />
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="50" alt="GitHub" title="GitHub" />
 
----
+                                          ---
 
-### 🛠️ Compétences & Technologies
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,python,java,docker,git&theme=light" alt="Tech Stack" />
-  </a>
-</p>
+                                            ## &#128225; GITHUB ANALYTICS
 
----
+                                                <img src="https://github-readme-stats.vercel.app/api?username=Amal-Khiari&show_icons=true&bg_color=0D1117&title_color=00FFFF&text_color=C9D1D9&icon_color=FF00FF&border_color=00FFFF&hide_border=false" alt="GitHub Stats" />
+                                                  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amal-Khiari&layout=compact&bg_color=0D1117&title_color=00FFFF&text_color=C9D1D9&icon_color=FF00FF&border_color=00FFFF&hide_border=false" alt="Top Languages" />
 
-### 📊 Statistiques GitHub
-<p align="center">
-  <a href="https://github.com/Amal-Khiari">
-    <img src="https://github-readme-stats.vercel.app/api?username=Amal-Khiari&show_icons=true&bg_color=fffafc&border_color=d8a7b1&title_color=b76e79&icon_color=d8a7b1&text_color=5a4a4e" alt="GitHub Stats" width="400"/>
-  </a>
-</p>
+                                                      <br>
 
----
+                                                          <img src="https://github-readme-streak-stats.herokuapp.com/?user=Amal-Khiari&background=0D1117&stroke=00FFFF&ring=FF00FF&fire=00FFFF&currStreakNum=ffffff&currStreakLabel=C9D1D9&sideNums=ffffff&sideLabels=C9D1D9&dates=C9D1D9&hide_border=false" alt="GitHub Streak" />
 
-### 🔥 Langages les plus utilisés
-<p align="center">
-  <a href="https://github.com/Amal-Khiari">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amal-Khiari&layout=compact&bg_color=fffafc&border_color=d8a7b1&title_color=b76e79&text_color=5a4a4e" alt="Top Langs" width="400"/>
-  </a>
-</p>
+                                                              <br>
 
----
+                                                                  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Amal-Khiari&bg_color=0D1117&color=C9D1D9&line=00FFFF&point=FF00FF&area=true&hide_border=false&border_color=00FFFF" alt="Activity Graph" width="100%" />
 
-### ✨ Mes projets
-- **[🏡 Dream Home](#)** – Plateforme immobilière moderne (MERN, animations fluides, système Rose Gold).
-- **[🤖 AI Content Curator](#)** – Service de machine learning en Python automatisant la data.
-- **[📱 Portfolio V2](#)** – Application frontend ultra-minimaliste et optimisée.
+                                                                    ---
 
----
+                                                                      ## &#128712; FEATURED PROJECTS
 
-### ✨ Ambiance Antigravity
-<p align="center">
-  <img src="antigravity.png" alt="Astronaute en apesanteur avec code" width="600" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(216, 167, 177, 0.4); border: 1px solid #d8a7b1;" />
-</p>
-<p align="center">
-  <em>Un astronaute flottant au-dessus d’un laptop, entouré de lignes de code en apesanteur, style futuriste néon, couleurs rose gold nude.</em>
-</p>
+                                                                          ### Project 1
+                                                                            Description du projet en quelques mots.
 
-<br/>
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=d8a7b1&height=60&section=footer" width="100%"/>
-</p>
+                                                                                <a href="https://github.com/Amal-Khiari">
+                                                                                    <img src="https://img.shields.io/badge/Voir_le_projet-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF&labelColor=0D1117&color=00FFFF" alt="Voir Project 1" />
+                                                                                      </a>
+
+                                                                                          <br>
+
+                                                                                              ### Project 2
+                                                                                                Description du projet en quelques mots.
+
+                                                                                                    <a href="https://github.com/Amal-Khiari">
+                                                                                                        <img src="https://img.shields.io/badge/Voir_le_projet-0D1117?style=for-the-badge&logo=github&logoColor=FF00FF&labelColor=0D1117&color=FF00FF" alt="Voir Project 2" />
+                                                                                                          </a>
+                                                                                                          
+                                                                                                            ---
+                                                                                                            
+                                                                                                              ## &#128225; CONNECT WITH ME
+                                                                                                                
+                                                                                                                  <a href="https://github.com/Amal-Khiari">
+                                                                                                                      <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FFFF&color=0D1117" alt="GitHub" />
+                                                                                                                        </a>
+                                                                                                                          <img width="10" />
+                                                                                                                            <a href="https://linkedin.com/in/amal-khiari">
+                                                                                                                                <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FFFF&color=0D1117" alt="LinkedIn" />
+                                                                                                                                  </a>
+                                                                                                                                    <img width="10" />
+                                                                                                                                      <a href="https://facebook.com/amal.khiari">
+                                                                                                                                          <img src="https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=facebook&logoColor=00FFFF&color=0D1117" alt="Facebook" />
+                                                                                                                                            </a>
+                                                                                                                                            
+                                                                                                                                              <br>
+                                                                                                                                                
+                                                                                                                                                  <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=30&text=SYSTEM%20SHUTDOWN%20INITIATED...&fontSize=10&fontColor=C9D1D9&fontAlignY=50" alt="Footer" />
+                                                                                                                                                  </div>
+                                                                                                                                                  
