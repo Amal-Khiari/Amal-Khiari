@@ -57,21 +57,21 @@
 <table align="center" width="900">
   <tr>
     <td align="center" width="50%">
-      <h3 align="center">Project 1</h3>
-      <p align="center">Description du projet en quelques mots.</p>
+              <h3 align="center">High-end AI-powered HR</h3>
+              <p align="center">Advanced HR platform leveraging artificial intelligence.</p>
       <br>
       <p align="center">
-        <a href="https://github.com/Amal-Khiari">
+        <a href="https://github.com/Amal-Khiari/High_end-AI_powered-HR">
           <img src="https://img.shields.io/badge/Voir_le_projet-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF&labelColor=0D1117&color=00FFFF" alt="Voir Project 1" />
         </a>
       </p>
     </td>
     <td align="center" width="50%">
-      <h3 align="center">Project 2</h3>
-      <p align="center">Description du projet en quelques mots.</p>
+              <h3 align="center">Maghreb Care</h3>
+              <p align="center">Digital healthcare ecosystem for the Maghreb region.</p>
       <br>
       <p align="center">
-        <a href="https://github.com/Amal-Khiari">
+        <a href="https://github.com/Amal-Khiari/maghreb-care">
           <img src="https://img.shields.io/badge/Voir_le_projet-0D1117?style=for-the-badge&logo=github&logoColor=FF00FF&labelColor=0D1117&color=FF00FF" alt="Voir Project 2" />
         </a>
       </p>
