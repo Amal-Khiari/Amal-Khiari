@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="100%" height="400">
+  <defs>
+    <style>
+      .bg { fill: #0f141e; }
+      
+      .halo-bloom { fill: url(#halo-grad); animation: pulseBloom 8s infinite alternate ease-in-out; opacity: 0.6; mix-blend-mode: screen; }
+      @keyframes pulseBloom {
+        0% { transform: scale(0.9) translate(5%, 5%); opacity: 0.4; }
+        100% { transform: scale(1.1) translate(-2%, -2%); opacity: 0.8; }
+      }
+
+      .particle { fill: #efd9d1; opacity: 0; animation: floatParticle 15s infinite linear; }
+      @keyframes floatParticle {
+        0% { transform: translateY(400px) scale(0.5); opacity: 0; }
+        20% { opacity: 0.8; }
+        80% { opacity: 0.8; }
+        100% { transform: translateY(-50px) scale(1.5); opacity: 0; }
+      }
+      
+      .starlight { fill: #fae3d9; animation: twinkleStar 4s infinite alternate; }
+      @keyframes twinkleStar {
+        0% { opacity: 0.2; transform: scale(0.8); }
+        100% { opacity: 1; transform: scale(1.2); filter: drop-shadow(0 0 5px #fae3d9); }
+      }
+      
+      .title-text { font-family: 'Inter', 'Segoe UI', sans-serif; font-size: 42px; font-weight: 800; fill: #efd9d1; letter-spacing: -0.5px; }
+      .gradient-text { fill: url(#text-grad); }
+      .subtitle-text { font-family: 'Inter', 'Segoe UI', sans-serif; font-size: 18px; font-weight: 500; fill: #d8a7b1; }
+      .bio-text { font-family: 'Inter', 'Segoe UI', sans-serif; font-size: 14px; fill: #a1a1aa; line-height: 1.6; }
+      
+      .badge-bg { fill: rgba(183, 110, 121, 0.15); stroke: rgba(216, 167, 177, 0.3); stroke-width: 1px; rx: 12px; }
+      .badge-text { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; fill: #efd9d1; }
+    </style>
+    
+    <radialGradient id="halo-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#b76e79" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#d8a7b1" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0f141e" stop-opacity="0"/>
+    </radialGradient>
+    
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#efd9d1" />
+      <stop offset="50%" stop-color="#fae3d9" />
+      <stop offset="100%" stop-color="#d8a7b1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Plum/Nude Black Base Background -->
+  <rect width="100%" height="100%" class="bg" />
+
+  <!-- Animated Rose Gold Halos (Behind where the GIF will be) -->
+  <circle cx="200" cy="200" r="280" class="halo-bloom" />
+  <circle cx="850" cy="100" r="200" class="halo-bloom" style="animation-delay: -3s; animation-duration: 12s;" />
+
+  <!-- Twinkling Starlight Grids -->
+  <g>
+    <circle cx="50" cy="80" r="1.5" class="starlight" style="animation-duration: 3s;" />
+    <circle cx="350" cy="40" r="2" class="starlight" style="animation-duration: 4.5s;" />
+    <circle cx="450" cy="350" r="1" class="starlight" style="animation-duration: 2.5s;" />
+    <circle cx="800" cy="320" r="2.5" class="starlight" style="animation-duration: 5s;" />
+    <circle cx="950" cy="120" r="1.5" class="starlight" style="animation-duration: 3.5s;" />
+  </g>
+
+  <!-- Floating Particles -->
+  <g>
+    <circle cx="120" cy="0" r="3" class="particle" style="animation-duration: 12s; animation-delay: 2s;" />
+    <circle cx="480" cy="0" r="2" class="particle" style="animation-duration: 18s; animation-delay: 5s;" />
+    <circle cx="700" cy="0" r="4" class="particle" style="animation-duration: 15s; animation-delay: 1s;" />
+    <circle cx="900" cy="0" r="2.5" class="particle" style="animation-duration: 14s; animation-delay: 8s;" />
+  </g>
+
+  <!-- Profile Content (Left Aligned) -->
+  <g transform="translate(400, 100)">
+    <text x="0" y="30" class="title-text">Hi, I'm <tspan class="gradient-text">Amal Khiari</tspan></text>
+    <text x="0" y="70" class="subtitle-text">Full Stack Architect &amp; Software Engineer</text>
+    
+    <!-- Modern Bio text -->
+    <foreignObject x="0" y="90" width="550" height="80">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Inter', sans-serif; font-size: 14px; color: #a1a1aa; line-height: 1.6;">
+        Specializing in crafting ultra-premium, highly scalable <span style="color: #efd9d1; font-weight: 600;">SaaS platforms</span> and <span style="color: #efd9d1; font-weight: 600;">AI-driven ecosystems</span>. I bridge robust Python/Java infrastructure with striking, cinematic MERN-stack interfaces.
+      </div>
+    </foreignObject>
+
+    <!-- Floating Badges -->
+    <g transform="translate(0, 190)">
+      <rect x="0" y="0" width="90" height="24" class="badge-bg" />
+      <text x="45" y="16" class="badge-text" text-anchor="middle">Innovator</text>
+      
+      <rect x="100" y="0" width="120" height="24" class="badge-bg" />
+      <text x="160" y="16" class="badge-text" text-anchor="middle">Problem Solver</text>
+      
+      <rect x="230" y="0" width="95" height="24" class="badge-bg" />
+      <text x="277" y="16" class="badge-text" text-anchor="middle">UI/UX Craft</text>
+    </g>
+  </g>
+</svg>

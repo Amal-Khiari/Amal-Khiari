@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" width="100%" height="350">
+  <defs>
+    <style>
+      .bg { fill: #0f141e; }
+      
+      /* Card Panel Styling */
+      .panel { fill: rgba(255, 255, 255, 0.02); stroke: rgba(183, 110, 121, 0.15); stroke-width: 1px; rx: 16px; }
+      
+      .section-title { font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 700; fill: #efd9d1; }
+      
+      /* Horizontal Progress Bars */
+      .bar-bg { fill: rgba(15, 20, 30, 0.8); stroke: rgba(216, 167, 177, 0.2); stroke-width: 1px; rx: 6px; }
+      .bar-fill { fill: url(#bar-grad); rx: 6px; filter: drop-shadow(0 0 4px rgba(183, 110, 121, 0.4)); transform-origin: left; }
+      .skill-text { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 500; fill: #fae3d9; }
+      .skill-percent { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; fill: #d8a7b1; text-anchor: end; }
+      
+      .py-anim { animation: fillPy 2s ease-out forwards; }
+      .jv-anim { animation: fillJv 2s ease-out forwards; animation-delay: 0.2s; transform: scaleX(0); }
+      .mern-anim { animation: fillMern 2s ease-out forwards; animation-delay: 0.4s; transform: scaleX(0); }
+      .dev-anim { animation: fillDev 2s ease-out forwards; animation-delay: 0.6s; transform: scaleX(0); }
+      
+      @keyframes fillPy { 0% { transform: scaleX(0); } 100% { transform: scaleX(0.85); } }
+      @keyframes fillJv { 0% { transform: scaleX(0); } 100% { transform: scaleX(0.80); } }
+      @keyframes fillMern { 0% { transform: scaleX(0); } 100% { transform: scaleX(0.95); } }
+      @keyframes fillDev { 0% { transform: scaleX(0); } 100% { transform: scaleX(0.90); } }
+
+      /* Circular Progress */
+      .circle-bg { fill: none; stroke: rgba(255, 255, 255, 0.05); stroke-width: 8; stroke-linecap: round; }
+      .circle-fill { fill: none; stroke: url(#bar-grad); stroke-width: 8; stroke-linecap: round; stroke-dasharray: 251; filter: drop-shadow(0 0 6px rgba(183, 110, 121, 0.5)); transform-origin: center; transform: rotate(-90deg); }
+      .circle-text { font-family: 'Inter', sans-serif; font-size: 20px; font-weight: 700; fill: #efd9d1; text-anchor: middle; alignment-baseline: middle; }
+      .circle-label { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 500; fill: #a1a1aa; text-anchor: middle; }
+      
+      .frontend-circle { animation: drawFrontend 2s ease-out forwards; stroke-dashoffset: 251; }
+      .backend-circle { animation: drawBackend 2s ease-out forwards; animation-delay: 0.3s; stroke-dashoffset: 251; }
+      .cloud-circle { animation: drawCloud 2s ease-out forwards; animation-delay: 0.6s; stroke-dashoffset: 251; }
+      
+      /* Circumference = 2 * PI * r = 2 * PI * 40 = ~251 */
+      @keyframes drawFrontend { to { stroke-dashoffset: 12; } } /* ~95% */
+      @keyframes drawBackend { to { stroke-dashoffset: 37; } } /* ~85% */
+      @keyframes drawCloud { to { stroke-dashoffset: 62; } } /* ~75% */
+
+    </style>
+    
+    <linearGradient id="bar-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b76e79" />
+      <stop offset="100%" stop-color="#fae3d9" />
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" />
+
+  <!-- Technical Proficiencies Panel (Left) -->
+  <g transform="translate(40, 20)">
+    <rect width="560" height="310" class="panel" />
+    <text x="30" y="45" class="section-title">Technical Proficiencies</text>
+    
+    <!-- MERN Stack -->
+    <g transform="translate(30, 80)">
+      <text x="0" y="0" class="skill-text">MERN Architecture (MongoDB, Express, React, Node)</text>
+      <text x="500" y="0" class="skill-percent">95%</text>
+      <rect x="0" y="12" width="500" height="10" class="bar-bg" />
+      <rect x="0" y="12" width="500" height="10" class="bar-fill mern-anim" />
+    </g>
+    
+    <!-- Python -->
+    <g transform="translate(30, 140)">
+      <text x="0" y="0" class="skill-text">Python / AI Integrations</text>
+      <text x="500" y="0" class="skill-percent">85%</text>
+      <rect x="0" y="12" width="500" height="10" class="bar-bg" />
+      <rect x="0" y="12" width="500" height="10" class="bar-fill py-anim" />
+    </g>
+
+    <!-- Java -->
+    <g transform="translate(30, 200)">
+      <text x="0" y="0" class="skill-text">Java / Enterprise Backend</text>
+      <text x="500" y="0" class="skill-percent">80%</text>
+      <rect x="0" y="12" width="500" height="10" class="bar-bg" />
+      <rect x="0" y="12" width="500" height="10" class="bar-fill jv-anim" />
+    </g>
+
+    <!-- DevOps -->
+    <g transform="translate(30, 260)">
+      <text x="0" y="0" class="skill-text">DevOps, CI/CD Pipeline (Docker, Git)</text>
+      <text x="500" y="0" class="skill-percent">90%</text>
+      <rect x="0" y="12" width="500" height="10" class="bar-bg" />
+      <rect x="0" y="12" width="500" height="10" class="bar-fill dev-anim" />
+    </g>
+  </g>
+
+  <!-- Specializations Panel (Right) -->
+  <g transform="translate(620, 20)">
+    <rect width="340" height="310" class="panel" />
+    <text x="30" y="45" class="section-title">Specializations</text>
+    
+    <!-- Frontend Ring -->
+    <g transform="translate(90, 130)">
+      <circle cx="0" cy="0" r="40" class="circle-bg" />
+      <circle cx="0" cy="0" r="40" class="circle-fill frontend-circle" />
+      <text x="0" y="2" class="circle-text">95%</text>
+      <text x="0" y="65" class="circle-label">UI/UX &amp; Frontend</text>
+    </g>
+    
+    <!-- Backend Ring -->
+    <g transform="translate(250, 130)">
+      <circle cx="0" cy="0" r="40" class="circle-bg" />
+      <circle cx="0" cy="0" r="40" class="circle-fill backend-circle" />
+      <text x="0" y="2" class="circle-text">85%</text>
+      <text x="0" y="65" class="circle-label">Systems API</text>
+    </g>
+
+    <!-- Cloud Ring -->
+    <g transform="translate(170, 240)">
+      <circle cx="0" cy="0" r="40" class="circle-bg" />
+      <circle cx="0" cy="0" r="40" class="circle-fill cloud-circle" />
+      <text x="0" y="2" class="circle-text">75%</text>
+      <text x="0" y="65" class="circle-label">Cloud Deployment</text>
+    </g>
+  </g>
+</svg>

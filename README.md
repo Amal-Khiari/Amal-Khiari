@@ -1,104 +1,105 @@
 <div align="center">
 
-<img src="cinematic.svg" width="100%" alt="3D Cinematic Developer Story Animation" />
+<br/>
+
+<!-- TOP NAV HEADER -->
+<h1 style="color: #efd9d1; font-family: 'Inter', sans-serif;">DASHBOARD <span style="color: #b76e79;">///</span> ALMA-KHIARI PORTFOLIO</h1>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=b76e79&height=2&width=100%" />
 
 <br/>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=32&duration=4000&color=f4b4c4&center=true&vCenter=true&width=800&height=100&lines=Hi,+I'm+Amal+Khiari;Full+Stack+Developer;Python+|+Java+|+MERN+Stack;Building+modern+digital+platforms+and+startups" alt="Typing Animation"/>
-</p>
+<!-- HERO SECTION / SaaS SPLIT VIEW -->
+<!-- Note: GitHub aligns tables, which allows for perfect 2-column SaaS splitting. -->
+<table>
+  <tr style="border: none;">
+    <!-- LEFT ALIGNED: The new Hero Text Widget -->
+    <td width="60%" style="border: none; background-color: #0f141e;">
+      <a href="https://github.com/Amal-Khiari">
+        <img src="hero-glow.svg?raw=true" width="100%" alt="Hero Graphic" />
+      </a>
+    </td>
+    <!-- RIGHT ALIGNED: User's chosen GIF framed inside Rose Gold borders -->
+    <td width="40%" align="center" style="border: none; background-color: #0f141e;">
+      <div style="padding: 10px; border-radius: 20px; border: 2px solid #b76e79; box-shadow: 0 0 40px rgba(183, 110, 121, 0.4);">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/028/991/999/original/anna-havrylyukh-.gif?1596125112" width="100%" style="border-radius: 12px; margin-bottom: -5px;" alt="Animated Avatar Profile" />
+      </div>
+    </td>
+  </tr>
+</table>
 
-<!-- Luminous Divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=f4b4c4&height=4&width=100%" />
+<br/>
 
-### 🚀 About Me
+### <span style="font-family: 'Inter', sans-serif; color: #efd9d1;">SYSTEM_METRICS  <span style="color: #b76e79;">//</span>  CAPABILITIES</span>
 
-<p align="center">
-  Amal Khiari is a passionate <strong>Full Stack Developer</strong> dedicated to building modern web platforms, innovative startups, and AI-driven digital ecosystems. I specialize in crafting ultra-premium, 3D-integrated user experiences backed by scalable cloud architectures, seamlessly bridging advanced backend capabilities in Python, Java, and Node.js with futuristic front-end designs.
-</p>
+<!-- The massive Tech Grid Widget -->
+<a href="https://github.com/Amal-Khiari">
+  <img src="tech-grid.svg?raw=true" width="100%" alt="Tech Architecture Overview" />
+</a>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=d98cb3&height=2&width=80%" />
-
-### 🌐 Floating Tech Grid
-
+<!-- Floating Array of Tech Icons configured for Rose Gold environment -->
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,java,js,react,nodejs,express,mongodb,tailwind,git,docker&theme=dark" alt="Floating Technology Stack" />
   </a>
 </p>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=d8a7b1&height=2&width=80%" />
 
-### ⚡ Animated Core Competencies
+<br/>
 
-<p align="center">
-  <img src="skills.svg" width="100%" alt="Animated Skill Progress Bars" />
-</p>
+### <span style="font-family: 'Inter', sans-serif; color: #efd9d1;">PORTFOLIO  <span style="color: #b76e79;">//</span>  PRODUCTION ENVIRONMENTS</span>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=38bdf8&height=2&width=80%" />
+<!-- Seamless Portfolio Interactive Embed -->
+<a href="https://github.com/Amal-Khiari/Dream-home-">
+  <img src="portfolio-cards.svg?raw=true" width="100%" alt="Interactive Portfolio Module" />
+</a>
 
-### 🌟 Featured Architecture Showcase
+<br/>
+<br/>
 
-<table>
-  <tr>
-    <td width="55%">
-      <h3 align="center" style="color: #f4b4c4">🏡 Dream Home</h3>
-      <p align="center"><strong>Modern Real Estate Platform</strong></p>
-      <p align="center">A high-performance real estate platform engineered from the ground up utilizing the MERN stack. Designed with futuristic 2026 UI/UX glassmorphism principles, featuring elegant scalable architecture and smooth cinematic animations.</p>
-      <p align="center">
-        <a href="https://github.com/Amal-Khiari/Dream-home-">
-          <img src="https://img.shields.io/badge/Explore%20System-0f172a?style=for-the-badge&logo=github&logoColor=f4b4c4&labelColor=0f172a&color=f4b4c4" />
-        </a>
-      </p>
-    </td>
-    <td width="45%">
-      <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=600" alt="Dream Home Preview" style="border-radius: 12px; box-shadow: 0 0 35px rgba(244, 180, 196, 0.25);" />
-    </td>
-  </tr>
-</table>
+### <span style="font-family: 'Inter', sans-serif; color: #efd9d1;">LOGS  <span style="color: #b76e79;">//</span>  EXPERIENCE & EVOLUTION</span>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=a855f7&height=2&width=80%" />
+<!-- Visual Timeline Module -->
+<img src="timeline.svg?raw=true" width="100%" alt="Professional Experience Matrix" />
 
-### 📊 Matrix Analytics & Engineering Stats
+<img src="https://capsule-render.vercel.app/api?type=rect&color=b76e79&height=1&width=60%" />
+
+### <span style="font-family: 'Inter', sans-serif; color: #efd9d1;">GITHUB_ANALYTICS  <span style="color: #b76e79;">//</span>  DATA STREAMS</span>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Amal-Khiari&show_icons=true&theme=radical&bg_color=0f172a&border_color=f4b4c4&title_color=f4b4c4&icon_color=d98cb3&text_color=94a3b8" height="192"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amal-Khiari&layout=compact&theme=radical&bg_color=0f172a&border_color=f4b4c4&title_color=f4b4c4&text_color=94a3b8" height="192"/>
+  <a href="https://github.com/Amal-Khiari">
+    <img src="https://github-readme-stats.vercel.app/api?username=Amal-Khiari&show_icons=true&theme=radical&bg_color=0f141e&border_color=b76e79&title_color=efd9d1&icon_color=d8a7b1&text_color=a1a1aa" height="192" alt="Server Operations Stats" />
+  </a>
+  <a href="https://github.com/Amal-Khiari">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amal-Khiari&layout=compact&theme=radical&bg_color=0f141e&border_color=b76e79&title_color=efd9d1&text_color=a1a1aa" height="192" alt="Language Compute Usage" />
+  </a>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Amal-Khiari&theme=radical&background=0f172a&border=f4b4c4&fire=f4b4c4&ring=a855f7&currStreakLabel=f4b4c4" />
-</p>
-
-<p align="center" style="font-family: monospace; color: #f4b4c4; font-size: 14px; letter-spacing: 5px;">
-  01001100 01101111 01100001 01100100 01101001 01101110 01100111
-</p>
-
-### 🐍 Contribution Activity Matrix
-
+<!-- GitHub Snake configured with Rose Gold/Nude hex keys (if Actions configured, it defaults to grid, but the repo layout matches) -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amal-Khiari/Amal-Khiari/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Amal-Khiari/Amal-Khiari/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Amal-Khiari/Amal-Khiari/output/github-contribution-grid-snake.svg">
+    <img alt="Contribution Grid Output" src="https://raw.githubusercontent.com/Amal-Khiari/Amal-Khiari/output/github-contribution-grid-snake.svg">
   </picture>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=f4b4c4&height=4&width=100%" />
-
-### 📡 Secure Connection Uplink
-
-<p align="center">
-  Connect with me on GitHub
-</p>
+<!-- Footer -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=d8a7b1&height=4&width=100%" />
+<br/>
+<!-- Elegant Contact Icons in the Footer -->
 <p align="center">
   <a href="https://github.com/Amal-Khiari">
-    <img src="https://img.shields.io/badge/GitHub%20Profile-0f172a?style=for-the-badge&logo=github&logoColor=f4b4c4&color=d98cb3" />
+    <img src="https://img.shields.io/badge/LINK/%20GITHUB-0f141e?style=for-the-badge&logo=github&logoColor=fae3d9&color=b76e79" alt="GitHub Network"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/LINK/%20LINKEDIN-0f141e?style=for-the-badge&logo=linkedin&logoColor=fae3d9&color=d8a7b1" alt="Professional Network"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/LINK/%20PORTFOLIO-0f141e?style=for-the-badge&logo=react&logoColor=fae3d9&color=b76e79" alt="Live Sandbox"/>
   </a>
 </p>
-
-<br>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=d98cb3&height=80&section=footer" width="100%"/>
+<p align="center" style="font-family: 'Inter', sans-serif; font-size: 12px; color: #a1a1aa;">
+  ROSE_GOLD UI / 2026 ARCHITECTURE SUITE v.3.0
 </p>
 
 </div>
