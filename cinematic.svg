@@ -12,39 +12,40 @@
       .code-float-2 { animation: codeFloat2 15s ease-in-out infinite alternate; }
       .code-float-3 { animation: codeFloat3 15s ease-in-out infinite alternate; }
       
-      @keyframes skyDarken {
-        0%, 20% { fill: #87CEEB; }
-        40%, 100% { fill: #0f172a; }
-      }
-      @keyframes sunFade {
-        0%, 15% { opacity: 1; transform: translateY(0); }
-        35%, 100% { opacity: 0; transform: translateY(150px); }
-      }
-      @keyframes starsGlow {
-        0%, 35% { opacity: 0; }
-        50%, 100% { opacity: 1; transform: scale(1.1); }
-      }
-      @keyframes screenLightUp {
-        0%, 45% { fill: #1e293b; }
-        55%, 100% { fill: #e2e8f0; }
-      }
-      @keyframes screenGlow {
-        0%, 45% { opacity: 0; }
-        55%, 100% { opacity: 0.6; }
-      }
+      /* Matrix Effect */
+      .matrixText { font-family: monospace; font-size: 14px; fill: #00FF88; opacity: 0; font-weight: bold; text-shadow: 0 0 5px #00FF88;}
+      .matrixDrop1 { animation: drop1 8s linear infinite; }
+      .matrixDrop2 { animation: drop2 10s linear infinite; }
+      .matrixDrop3 { animation: drop3 12s linear infinite; }
+      .matrixDrop4 { animation: drop4 9s linear infinite; }
+      .matrixDrop5 { animation: drop5 11s linear infinite; }
       
-      @keyframes codeFloat1 {
-        0%, 50% { opacity: 0; transform: translateY(0) scale(0.8); }
-        65%, 100% { opacity: 1; transform: translateY(-80px) translateX(-30px) scale(1.2); }
-      }
-      @keyframes codeFloat2 {
-        0%, 55% { opacity: 0; transform: translateY(0) scale(0.8); }
-        70%, 100% { opacity: 0.8; transform: translateY(-110px) translateX(20px) scale(1); }
-      }
-      @keyframes codeFloat3 {
-        0%, 60% { opacity: 0; transform: translateY(0) scale(0.8); }
-        75%, 100% { opacity: 0.9; transform: translateY(-60px) translateX(-50px) scale(1.4); }
-      }
+      /* Only show matrix effect when dark */
+      .matrix-group { animation: starsGlow 15s ease-in-out infinite alternate; opacity: 0; }
+
+      @keyframes drop1 { 0% { transform: translateY(-300px); } 100% { transform: translateY(500px); } }
+      @keyframes drop2 { 0% { transform: translateY(-400px); } 100% { transform: translateY(400px); } }
+      @keyframes drop3 { 0% { transform: translateY(-200px); } 100% { transform: translateY(600px); } }
+      @keyframes drop4 { 0% { transform: translateY(-500px); } 100% { transform: translateY(300px); } }
+      @keyframes drop5 { 0% { transform: translateY(-100px); } 100% { transform: translateY(700px); } }
+
+      /* Floating tech logos */
+      .logo { opacity: 0; filter: drop-shadow(0 0 10px rgba(0,255,136,0.6)); }
+      .logo-anim-1 { animation: floatLogo1 15s ease-in-out infinite alternate; }
+      .logo-anim-2 { animation: floatLogo2 15s ease-in-out infinite alternate; }
+      
+      @keyframes floatLogo1 { 0%, 40% { opacity: 0; transform: translate(0, 0) scale(0.5); } 60%, 100% { opacity: 0.8; transform: translate(-150px, -120px) scale(1); } }
+      @keyframes floatLogo2 { 0%, 45% { opacity: 0; transform: translate(0, 0) scale(0.5); } 65%, 100% { opacity: 0.8; transform: translate(120px, -150px) scale(1.2); } }
+
+      @keyframes skyDarken { 0%, 20% { fill: #87CEEB; } 40%, 100% { fill: #0f172a; } }
+      @keyframes sunFade { 0%, 15% { opacity: 1; transform: translateY(0); } 35%, 100% { opacity: 0; transform: translateY(150px); } }
+      @keyframes starsGlow { 0%, 35% { opacity: 0; } 50%, 100% { opacity: 1; transform: scale(1.1); } }
+      @keyframes screenLightUp { 0%, 45% { fill: #1e293b; } 55%, 100% { fill: #e2e8f0; } }
+      @keyframes screenGlow { 0%, 45% { opacity: 0; } 55%, 100% { opacity: 0.6; } }
+      
+      @keyframes codeFloat1 { 0%, 50% { opacity: 0; transform: translateY(0) scale(0.8); } 65%, 100% { opacity: 1; transform: translateY(-80px) translateX(-30px) scale(1.2); } }
+      @keyframes codeFloat2 { 0%, 55% { opacity: 0; transform: translateY(0) scale(0.8); } 70%, 100% { opacity: 0.8; transform: translateY(-110px) translateX(20px) scale(1); } }
+      @keyframes codeFloat3 { 0%, 60% { opacity: 0; transform: translateY(0) scale(0.8); } 75%, 100% { opacity: 0.9; transform: translateY(-60px) translateX(-50px) scale(1.4); } }
       
       .stinkle { animation: twinkle 3s infinite alternate; }
       @keyframes twinkle { 0% { opacity: 0.3; } 100% { opacity: 1; } }
@@ -63,6 +64,31 @@
 
   <!-- Background Sky -->
   <rect width="100%" height="100%" class="sky" />
+
+  <!-- Matrix Rain (only visible at night) -->
+  <g class="matrix-group">
+    <!-- Columns of matrix code -->
+    <text x="50" y="0" class="matrixText matrixDrop1" transform="rotate(0)">
+      <tspan x="50" dy="1.2em">1</tspan><tspan x="50" dy="1.2em">0</tspan><tspan x="50" dy="1.2em">1</tspan><tspan x="50" dy="1.2em">1</tspan><tspan x="50" dy="1.2em">0</tspan>
+      <tspan x="50" dy="1.2em">1</tspan><tspan x="50" dy="1.2em">0</tspan><tspan x="50" dy="1.2em">0</tspan><tspan x="50" dy="1.2em">1</tspan><tspan x="50" dy="1.2em">0</tspan>
+    </text>
+    <text x="120" y="-100" class="matrixText matrixDrop2">
+      <tspan x="120" dy="1.2em">0</tspan><tspan x="120" dy="1.2em">1</tspan><tspan x="120" dy="1.2em">0</tspan><tspan x="120" dy="1.2em">1</tspan><tspan x="120" dy="1.2em">1</tspan>
+      <tspan x="120" dy="1.2em">0</tspan><tspan x="120" dy="1.2em">0</tspan><tspan x="120" dy="1.2em">1</tspan><tspan x="120" dy="1.2em">1</tspan><tspan x="120" dy="1.2em">0</tspan>
+    </text>
+    <text x="650" y="-50" class="matrixText matrixDrop3">
+      <tspan x="650" dy="1.2em">1</tspan><tspan x="650" dy="1.2em">1</tspan><tspan x="650" dy="1.2em">0</tspan><tspan x="650" dy="1.2em">0</tspan><tspan x="650" dy="1.2em">1</tspan>
+      <tspan x="650" dy="1.2em">0</tspan><tspan x="650" dy="1.2em">1</tspan><tspan x="650" dy="1.2em">1</tspan><tspan x="650" dy="1.2em">0</tspan><tspan x="650" dy="1.2em">1</tspan>
+    </text>
+    <text x="750" y="-150" class="matrixText matrixDrop4">
+      <tspan x="750" dy="1.2em">0</tspan><tspan x="750" dy="1.2em">0</tspan><tspan x="750" dy="1.2em">1</tspan><tspan x="750" dy="1.2em">0</tspan><tspan x="750" dy="1.2em">1</tspan>
+      <tspan x="750" dy="1.2em">1</tspan><tspan x="750" dy="1.2em">0</tspan><tspan x="750" dy="1.2em">1</tspan><tspan x="750" dy="1.2em">0</tspan><tspan x="750" dy="1.2em">0</tspan>
+    </text>
+    <text x="220" y="-80" class="matrixText matrixDrop5">
+      <tspan x="220" dy="1.2em">1</tspan><tspan x="220" dy="1.2em">0</tspan><tspan x="220" dy="1.2em">0</tspan><tspan x="220" dy="1.2em">1</tspan><tspan x="220" dy="1.2em">1</tspan>
+      <tspan x="220" dy="1.2em">0</tspan><tspan x="220" dy="1.2em">1</tspan><tspan x="220" dy="1.2em">0</tspan><tspan x="220" dy="1.2em">0</tspan><tspan x="220" dy="1.2em">1</tspan>
+    </text>
+  </g>
 
   <!-- Sun -->
   <circle cx="200" cy="150" r="60" class="sun" />
@@ -105,7 +131,21 @@
   <path d="M 245 300 C 240 300, 240 315, 245 315" stroke="#020617" stroke-width="4" fill="none" />
   <path d="M 260 290 Q 265 270, 270 260" stroke="#FFF" stroke-width="2" fill="none" opacity="0.3" class="stinkle" />
   
-  <!-- Floating Code Symbols -->
+  <!-- Floating Code Symbols & Logos -->
+  <g transform="translate(360, 220)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#61DAFB" stroke-width="4" class="logo logo-anim-2" />
+    <circle cx="0" cy="0" r="8" fill="#61DAFB" class="logo logo-anim-2" />
+    <!-- React abstract logo -->
+    <ellipse cx="0" cy="0" rx="30" ry="10" transform="rotate(30)" fill="none" stroke="#61DAFB" stroke-width="3" class="logo logo-anim-2"/>
+    <ellipse cx="0" cy="0" rx="30" ry="10" transform="rotate(-30)" fill="none" stroke="#61DAFB" stroke-width="3" class="logo logo-anim-2"/>
+    <ellipse cx="0" cy="0" rx="30" ry="10" transform="rotate(90)" fill="none" stroke="#61DAFB" stroke-width="3" class="logo logo-anim-2"/>
+  </g>
+  
+  <g transform="translate(360, 220)">
+    <!-- Node abstract hex -->
+    <polygon points="0,-25 22,-12 22,12 0,25 -22,12 -22,-12" fill="none" stroke="#8CC84B" stroke-width="4" stroke-linejoin="round" class="logo logo-anim-1" />
+  </g>
+
   <text x="360" y="220" class="code code-float-1">&lt;/&gt;</text>
   <text x="320" y="180" class="code code-float-2">def main():</text>
   <text x="400" y="150" class="code code-float-3">{...}</text>
