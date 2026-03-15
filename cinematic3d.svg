@@ -16,15 +16,17 @@
       .screen { animation: screenLightUp 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; fill: #1e293b; }
       .hologram-beam { animation: holoBeam 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; opacity: 0; fill: url(#beam-grad); }
       
-      /* 3D Code Symbols */
-      .code-3d { font-family: 'Courier New', monospace; font-weight: bold; font-size: 28px; fill: #00FF88; opacity: 0; filter: drop-shadow(0 0 10px #00FF88); }
+      /* 3D Code Symbols (Rose Nude #f4b4c4) */
+      .code-3d { font-family: 'Courier New', monospace; font-weight: bold; font-size: 28px; fill: #f4b4c4; opacity: 0; filter: drop-shadow(0 0 10px #f4b4c4); }
       .code-fly-1 { animation: codeFly1 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
       .code-fly-2 { animation: codeFly2 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
       .code-fly-3 { animation: codeFly3 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
       .code-fly-4 { animation: codeFly4 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
       
       /* Tech Orbs (3D Floating) */
-      .tech-orb { opacity: 0; filter: drop-shadow(0 0 15px rgba(0,255,136,0.8)); }
+      .tech-orb { opacity: 0; filter: drop-shadow(0 0 15px rgba(244, 180, 196, 0.8)); }
+      .tech-orb-blue { opacity: 0; filter: drop-shadow(0 0 15px rgba(56, 189, 248, 0.8)); }
+      .tech-orb-gold { opacity: 0; filter: drop-shadow(0 0 15px rgba(234, 179, 8, 0.8)); }
       .orb-1 { animation: orbit1 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
       .orb-2 { animation: orbit2 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
       .orb-3 { animation: orbit3 16s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate; }
@@ -108,15 +110,15 @@
     </radialGradient>
     
     <radialGradient id="hologram-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.6"/>
-      <stop offset="60%" stop-color="#00C896" stop-opacity="0.2"/>
+      <stop offset="0%" stop-color="#f4b4c4" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#d98cb3" stop-opacity="0.2"/>
       <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
     
     <linearGradient id="beam-grad" x1="50%" y1="100%" x2="50%" y2="0%">
-      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#00C896" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#00FF88" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#f4b4c4" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#d98cb3" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f4b4c4" stop-opacity="0"/>
     </linearGradient>
 
     <!-- 3D Desk Gradients -->
@@ -246,14 +248,14 @@
 
   <!-- 3D Orbiting Tech Orbs -->
   <g transform="translate(410, 200)">
-    <!-- Node.js/Mongo Hex Orb -->
+    <!-- Node.js/Mongo Hex Orb (Changed from green to rose nude) -->
     <g class="tech-orb orb-1">
-      <circle cx="0" cy="0" r="18" fill="rgba(15,23,42,0.8)" stroke="#4ade80" stroke-width="2" />
-      <polygon points="0,-10 9,-5 9,5 0,10 -9,5 -9,-5" fill="#4ade80" />
+      <circle cx="0" cy="0" r="18" fill="rgba(15,23,42,0.8)" stroke="#f4b4c4" stroke-width="2" />
+      <polygon points="0,-10 9,-5 9,5 0,10 -9,5 -9,-5" fill="#f4b4c4" />
     </g>
     
-    <!-- React Atom Orb -->
-    <g class="tech-orb orb-2">
+    <!-- React Atom Orb (Cyber blue - kept) -->
+    <g class="tech-orb-blue orb-2">
       <circle cx="0" cy="0" r="22" fill="rgba(15,23,42,0.8)" stroke="#38bdf8" stroke-width="2" />
       <ellipse cx="0" cy="0" rx="12" ry="4" transform="rotate(30)" fill="none" stroke="#38bdf8" stroke-width="2"/>
       <ellipse cx="0" cy="0" rx="12" ry="4" transform="rotate(-30)" fill="none" stroke="#38bdf8" stroke-width="2"/>
@@ -261,8 +263,8 @@
       <circle cx="0" cy="0" r="3" fill="#38bdf8" />
     </g>
 
-    <!-- Python/Java Abstract Orb -->
-    <g class="tech-orb orb-3">
+    <!-- Python/Java Abstract Orb (Gold/Rose variations) -->
+    <g class="tech-orb-gold orb-3">
       <circle cx="0" cy="0" r="20" fill="rgba(15,23,42,0.8)" stroke="#eab308" stroke-width="2" />
       <circle cx="0" cy="0" r="10" fill="none" stroke="#eab308" stroke-width="2" stroke-dasharray="4 4" />
       <circle cx="0" cy="0" r="4" fill="#eab308" />

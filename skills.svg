@@ -2,10 +2,10 @@
   <defs>
     <style>
       .bg { fill: transparent; }
-      .bar-bg { fill: rgba(15, 23, 42, 0.6); stroke: rgba(0, 255, 136, 0.2); stroke-width: 1px; rx: 8px; }
-      .bar-fill { fill: url(#grad); rx: 8px; filter: drop-shadow(0 0 8px rgba(0, 255, 136, 0.5)); transform-origin: left; }
+      .bar-bg { fill: rgba(15, 23, 42, 0.6); stroke: rgba(244, 180, 196, 0.2); stroke-width: 1px; rx: 8px; }
+      .bar-fill { fill: url(#grad); rx: 8px; filter: drop-shadow(0 0 8px rgba(244, 180, 196, 0.5)); transform-origin: left; }
       .text { fill: #e2e8f0; font-family: 'Inter', 'Segoe UI', sans-serif; font-size: 16px; font-weight: 600; }
-      .text-percent { fill: #00FF88; font-family: monospace; font-size: 14px; font-weight: bold; text-anchor: end; }
+      .text-percent { fill: #f4b4c4; font-family: monospace; font-size: 14px; font-weight: bold; text-anchor: end; }
       
       .python { animation: fillPython 2s ease-out forwards; }
       .java { animation: fillJava 2s ease-out forwards; animation-delay: 0.2s; transform: scaleX(0); }
@@ -19,8 +19,8 @@
     </style>
     
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00C896" />
-      <stop offset="50%" stop-color="#00FF88" />
+      <stop offset="0%" stop-color="#d98cb3" />
+      <stop offset="50%" stop-color="#f4b4c4" />
       <stop offset="100%" stop-color="#38bdf8" />
     </linearGradient>
   </defs>
