@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center">v
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=250&section=header&text=AMAL%20KHIARI&fontSize=80&fontColor=00FFFF&animation=twinkling&fontAlignY=35&desc=Web%20Developer%20%E2%80%A2%20AI%20Enthusiast%20%E2%80%A2%20Creative%20Builder&descAlignY=60&descSize=22" alt="Amal Khiari Hero Banner" />
 </div>
 
